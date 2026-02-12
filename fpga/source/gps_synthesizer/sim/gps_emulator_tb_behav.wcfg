@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="gps_emulator_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="gps_emulator_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="10001000000001fs"></ZoomEndTime>
+      <Cursor1Time time="0fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="252"></NameColumnWidth>
+      <ValueColumnWidth column_width="74"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="36" />
+   <wave_markers>
+      <marker label="" time="4191667000" />
+      <marker label="" time="6098333000" />
+      <marker label="" time="645791733000" />
+   </wave_markers>
+   <wvobject type="logic" fp_name="/gps_emulator_tb/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/gps_emulator_tb/dv_in">
+      <obj_property name="ElementShortName">dv_in</obj_property>
+      <obj_property name="ObjectShortName">dv_in</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/gps_emulator_tb/gain">
+      <obj_property name="ElementShortName">gain[3:0][15:0]</obj_property>
+      <obj_property name="ObjectShortName">gain[3:0][15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/gps_emulator_tb/ca_sel">
+      <obj_property name="ElementShortName">ca_sel[3:0][5:0]</obj_property>
+      <obj_property name="ObjectShortName">ca_sel[3:0][5:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/gps_emulator_tb/noise_gain">
+      <obj_property name="ElementShortName">noise_gain[15:0]</obj_property>
+      <obj_property name="ObjectShortName">noise_gain[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/gps_emulator_tb/dv_out">
+      <obj_property name="ElementShortName">dv_out</obj_property>
+      <obj_property name="ObjectShortName">dv_out</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/gps_emulator_tb/real_out">
+      <obj_property name="ElementShortName">real_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">real_out[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/gps_emulator_tb/imag_out">
+      <obj_property name="ElementShortName">imag_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">imag_out[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/gps_emulator_tb/real_out">
+      <obj_property name="ElementShortName">real_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">real_out[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_FIXED</obj_property>
+      <obj_property name="AnalogYRangeMin">-128.000000</obj_property>
+      <obj_property name="AnalogYRRangeMax">128.000000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/gps_emulator_tb/imag_out">
+      <obj_property name="ElementShortName">imag_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">imag_out[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_FIXED</obj_property>
+      <obj_property name="AnalogYRangeMin">-128.000000</obj_property>
+      <obj_property name="AnalogYRRangeMax">128.000000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider35" type="divider">
+      <obj_property name="label">uut</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/gps_emulator_tb/uut/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/gps_emulator_tb/uut/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/gps_emulator_tb/uut/sat_real_out">
+      <obj_property name="ElementShortName">sat_real_out[3:0][15:0]</obj_property>
+      <obj_property name="ObjectShortName">sat_real_out[3:0][15:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/gps_emulator_tb/uut/sat_imag_out">
+      <obj_property name="ElementShortName">sat_imag_out[3:0][15:0]</obj_property>
+      <obj_property name="ObjectShortName">sat_imag_out[3:0][15:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/gps_emulator_tb/uut/bb_with_noise_real">
+      <obj_property name="ElementShortName">bb_with_noise_real[15:0]</obj_property>
+      <obj_property name="ObjectShortName">bb_with_noise_real[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="radix_realType">UNSIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">5</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/gps_emulator_tb/uut/bb_with_noise_imag">
+      <obj_property name="ElementShortName">bb_with_noise_imag[15:0]</obj_property>
+      <obj_property name="ObjectShortName">bb_with_noise_imag[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="radix_realType">UNSIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">5</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/gps_emulator_tb/uut/bb_with_noise_real">
+      <obj_property name="ElementShortName">bb_with_noise_real[15:0]</obj_property>
+      <obj_property name="ObjectShortName">bb_with_noise_real[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="radix_realType">UNSIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">5</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+      <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+      <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/gps_emulator_tb/uut/bb_with_noise_imag">
+      <obj_property name="ElementShortName">bb_with_noise_imag[15:0]</obj_property>
+      <obj_property name="ObjectShortName">bb_with_noise_imag[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="radix_realType">UNSIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">5</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+      <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+      <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/gps_emulator_tb/uut/sat_real_out[0]">
+      <obj_property name="ElementShortName">[0][15:0]</obj_property>
+      <obj_property name="ObjectShortName">[0][15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+      <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+      <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/gps_emulator_tb/uut/sat_imag_out[0]">
+      <obj_property name="ElementShortName">[0][15:0]</obj_property>
+      <obj_property name="ObjectShortName">[0][15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+      <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+      <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/gps_emulator_tb/uut/dither_real">
+      <obj_property name="ElementShortName">dither_real[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dither_real[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_FIXED</obj_property>
+      <obj_property name="AnalogYRangeMin">-2000.000000</obj_property>
+      <obj_property name="AnalogYRRangeMax">2000.000000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/gps_emulator_tb/uut/dither_imag">
+      <obj_property name="ElementShortName">dither_imag[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dither_imag[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_FIXED</obj_property>
+      <obj_property name="AnalogYRangeMin">-2000.000000</obj_property>
+      <obj_property name="AnalogYRRangeMax">2000.000000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider74" type="divider">
+      <obj_property name="label">noise</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/gps_emulator_tb/uut/gng_cmplx_inst/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/gps_emulator_tb/uut/gng_cmplx_inst/rstn">
+      <obj_property name="ElementShortName">rstn</obj_property>
+      <obj_property name="ObjectShortName">rstn</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/gps_emulator_tb/uut/gng_cmplx_inst/ce">
+      <obj_property name="ElementShortName">ce</obj_property>
+      <obj_property name="ObjectShortName">ce</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/gps_emulator_tb/uut/gng_cmplx_inst/valid_out">
+      <obj_property name="ElementShortName">valid_out</obj_property>
+      <obj_property name="ObjectShortName">valid_out</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/gps_emulator_tb/uut/gng_cmplx_inst/real_out">
+      <obj_property name="ElementShortName">real_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">real_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/gps_emulator_tb/uut/gng_cmplx_inst/imag_out">
+      <obj_property name="ElementShortName">imag_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">imag_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/gps_emulator_tb/uut/gng_cmplx_inst/INIT_Z1">
+      <obj_property name="ElementShortName">INIT_Z1[63:0]</obj_property>
+      <obj_property name="ObjectShortName">INIT_Z1[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/gps_emulator_tb/uut/gng_cmplx_inst/INIT_Z2">
+      <obj_property name="ElementShortName">INIT_Z2[63:0]</obj_property>
+      <obj_property name="ObjectShortName">INIT_Z2[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/gps_emulator_tb/uut/gng_cmplx_inst/INIT_Z3">
+      <obj_property name="ElementShortName">INIT_Z3[63:0]</obj_property>
+      <obj_property name="ObjectShortName">INIT_Z3[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/gps_emulator_tb/uut/gng_cmplx_inst/INIT_Z4">
+      <obj_property name="ElementShortName">INIT_Z4[63:0]</obj_property>
+      <obj_property name="ObjectShortName">INIT_Z4[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/gps_emulator_tb/uut/gng_cmplx_inst/INIT_Z5">
+      <obj_property name="ElementShortName">INIT_Z5[63:0]</obj_property>
+      <obj_property name="ObjectShortName">INIT_Z5[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/gps_emulator_tb/uut/gng_cmplx_inst/INIT_Z6">
+      <obj_property name="ElementShortName">INIT_Z6[63:0]</obj_property>
+      <obj_property name="ObjectShortName">INIT_Z6[63:0]</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="sat_chan_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="sat_chan_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="2636000001fs"></ZoomEndTime>
+      <Cursor1Time time="0fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="207"></NameColumnWidth>
+      <ValueColumnWidth column_width="130"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="20" />
+   <wvobject type="logic" fp_name="/sat_chan_tb/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/sat_chan_tb/dv_in">
+      <obj_property name="ElementShortName">dv_in</obj_property>
+      <obj_property name="ObjectShortName">dv_in</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/sat_chan_tb/ca_sel">
+      <obj_property name="ElementShortName">ca_sel[5:0]</obj_property>
+      <obj_property name="ObjectShortName">ca_sel[5:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/sat_chan_tb/gain">
+      <obj_property name="ElementShortName">gain[15:0]</obj_property>
+      <obj_property name="ObjectShortName">gain[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/sat_chan_tb/code_freq">
+      <obj_property name="ElementShortName">code_freq[31:0]</obj_property>
+      <obj_property name="ObjectShortName">code_freq[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/sat_chan_tb/dop_freq">
+      <obj_property name="ElementShortName">dop_freq[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dop_freq[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/sat_chan_tb/dv_out">
+      <obj_property name="ElementShortName">dv_out</obj_property>
+      <obj_property name="ObjectShortName">dv_out</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/sat_chan_tb/real_out">
+      <obj_property name="ElementShortName">real_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">real_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/sat_chan_tb/imag_out">
+      <obj_property name="ElementShortName">imag_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">imag_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/sat_chan_tb/real_out">
+      <obj_property name="ElementShortName">real_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">real_out[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+      <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+      <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/sat_chan_tb/imag_out">
+      <obj_property name="ElementShortName">imag_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">imag_out[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+      <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+      <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider8" type="divider">
+      <obj_property name="label">uut</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/sat_chan_tb/uut/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/sat_chan_tb/uut/sat_ca">
+      <obj_property name="ElementShortName">sat_ca</obj_property>
+      <obj_property name="ObjectShortName">sat_ca</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/sat_chan_tb/uut/gain">
+      <obj_property name="ElementShortName">gain[15:0]</obj_property>
+      <obj_property name="ObjectShortName">gain[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/sat_chan_tb/uut/real_out">
+      <obj_property name="ElementShortName">real_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">real_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/sat_chan_tb/uut/imag_out">
+      <obj_property name="ElementShortName">imag_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">imag_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/sat_chan_tb/uut/sat_ca">
+      <obj_property name="ElementShortName">sat_ca</obj_property>
+      <obj_property name="ObjectShortName">sat_ca</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/sat_chan_tb/uut/dopp_dv_out">
+      <obj_property name="ElementShortName">dopp_dv_out</obj_property>
+      <obj_property name="ObjectShortName">dopp_dv_out</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/sat_chan_tb/uut/code_dv_out">
+      <obj_property name="ElementShortName">code_dv_out</obj_property>
+      <obj_property name="ObjectShortName">code_dv_out</obj_property>
+   </wvobject>
+</wave_config>
